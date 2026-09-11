@@ -1,0 +1,5 @@
+# Nada que ignorar: aquí solo van APK firmados y notas de versión.
+# Evitamos subir basura del sistema.
+.DS_Store
+Thumbs.db
+*.tmp
