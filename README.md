@@ -1,50 +1,70 @@
-# VirtualMixShop APK — Releases
+# VirtualMixShop — La tienda en tu teléfono
 
-Repositorio **público** de binarios de la app Android de VirtualMixShop.
+¡Hola! 👋 Esto es VirtualMixShop, la app para comprar saldo, VPN y más desde tu móvil Android.
 
-Aquí solo van los APK y sus notas de versión. El **código fuente vive en un repositorio privado**.
-
----
-
-## ⚠️ Estado: BETA
-
-Todavía **no hay ninguna release publicada**. La app está en fase de pruebas internas.
-
-Cuando salga la primera versión estable, aparecerá aquí y en la sección
-[**Releases**](https://github.com/Carlosdev-cod/VirtualMixShop-APK-Releases/releases).
+Aquí publicamos las **nuevas versiones de la app** para que siempre tengas la última.
 
 ---
 
-## Cómo se actualizará la app
+## 📥 Cómo instalar la app
 
-La APK consulta `GET /api/app/version` al arrancar:
+1. Toca el botón verde **"Releases"** que ves aquí arriba (o entra por [este enlace](https://github.com/Carlosdev-cod/VirtualMixShop-APK-Releases/releases)).
+2. Busca la versión más reciente (la primera de la lista).
+3. Toca el archivo que termina en **`.apk`** y deja que se descargue.
+4. Abre el archivo descargado. Si es la primera vez, Android te va a preguntar si dejas instalar apps de esta fuente — di que sí (es normal, solo lo pide una vez).
+5. Listo. Abre VirtualMixShop y a comprar. 🎉
 
-- Si hay una versión más nueva → muestra un aviso con el changelog y un botón **Descargar**.
-- Si la versión instalada es más vieja que el mínimo exigido → el aviso es obligatorio.
-
-Ese botón abre la página de Releases en el navegador del teléfono. Desde ahí se
-descarga el APK y se instala encima del anterior (los datos se conservan).
-
----
-
-## Requisitos
-
-| | |
-|---|---|
-| Android | 8.0 (Oreo, API 26) o superior |
-| Permisos | Internet, red, cámara, biometría |
-| Huella / Face ID | Opcional, para login sin contraseña |
+> 💡 **Si ya tenías la app instalada**: no hace falta desinstalar nada. Instala la nueva encima y conservas tu cuenta, tu carrito y tus compras. Solo los datos que tenías quedan igual.
 
 ---
 
-## Seguridad
+## 🔄 Cómo funciona la actualización
 
-- Los APK van firmados con el mismo certificado en cada versión: las
-  actualizaciones se instalan **encima**, sin perder datos.
-- La huella dactilar **nunca sale del teléfono**: solo viaja una firma
-  criptográfica, validada contra el dominio.
-- No se publican binarios sin firmar.
+La app **se avisa sola**:
+
+- Cuando publicamos una versión nueva, te aparece un aviso al abrirla, con la lista de cosas nuevas.
+- Tocas **"Actualizar"** y la descarga empieza ahí mismo, con una barra de progreso y la velocidad de tu conexión.
+- Al terminar, Android te pregunta si quieres instalar — tocas instalar y ya está. ✨
+
+Así que en realidad casi nunca vas a necesitar venir a esta página: la app hace todo.
+
+> Si estás en plena zona con señal floja, puedes tocar "Más tarde" y te volverá a avisar la próxima vez que abras la app.
 
 ---
 
-*VirtualMixShop — Cuba*
+## 📋 ¿Y las notas de cada versión?
+
+Cada versión viene con su lista de cambios, escrita en cristiano: qué se arregló, qué es nuevo y qué mejora. Sin palabras raras.
+
+Por ejemplo:
+
+> **Versión 1.2**
+> - Arreglado: el carrito ya no se vacía al cerrar la app
+> - Nuevo: puedes ponerle foto a tu perfil
+> - Mejora: la app avisa sola cuando hay actualización
+
+---
+
+## ✋ Requisitos
+
+- Android 8.0 o más nuevo (prácticamente cualquier teléfono de los últimos años)
+- Espacio libre: unos 25 MB
+- La huella digital es opcional — solo si quieres entrar más rápido
+
+---
+
+## ❓ Preguntas rápidas
+
+**¿Es segura?** Sí. Cada versión va firmada: tu teléfono verifica que la app la hicimos nosotros y nadie más. Si un día descargas una versión "pirata", Android la va a rechazar.
+
+**¿Se puede confiar en la huella?** Tu huella nunca sale del teléfono. Lo que viaja es una llave segura, no tu dato personal.
+
+**Perdí mi contraseña / no puedo entrar** — escríbenos por Telegram: [@VirtualMix_Shop](https://t.me/VirtualMix_Shop)
+
+**¿Cuánto gasta de datos?** Muy poco: las imágenes van comprimidas y la app no descarga nada de más.
+
+**¿La app es gratis?** Sí, la app es gratis. Lo que compras es lo de adentro 😄
+
+---
+
+*Hecho con 💜 en Cuba*
